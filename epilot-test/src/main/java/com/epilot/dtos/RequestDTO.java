@@ -1,7 +1,5 @@
 package com.epilot.dtos;
 
-import com.epilot.controller.Validable;
-
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

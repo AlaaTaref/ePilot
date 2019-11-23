@@ -46,7 +46,6 @@ public class MultipledOfController {
 			}
 			
 		} catch (JsonProcessingException |EmptyRequestException e) {
-			System.out.println(e.getMessage());
 			response.status(HTTP_BAD_REQUEST);
 			return JsonUtil.toJson(new ResponseError(e));
 		}
